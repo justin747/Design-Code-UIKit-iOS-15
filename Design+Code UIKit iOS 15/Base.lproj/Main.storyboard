@@ -123,6 +123,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Featured" id="4Zd-Yh-qin"/>
+                    <connections>
+                        <outlet property="blurView" destination="JBY-5U-C4F" id="vGE-K6-NGZ"/>
+                        <outlet property="cardView" destination="foY-Cp-wEJ" id="TMf-Hs-DKg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
