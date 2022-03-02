@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BA5707427CDF71F00B6A874 /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5707027CDF71F00B6A874 /* CustomBlurView.swift */; };
+		3BA5707527CDF71F00B6A874 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5707127CDF71F00B6A874 /* CustomUIView.swift */; };
+		3BA5707627CDF71F00B6A874 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5707227CDF71F00B6A874 /* Font.swift */; };
+		3BA5707727CDF71F00B6A874 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5707327CDF71F00B6A874 /* CustomImageView.swift */; };
 		3BBAF85227CB09CE00042561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAF85127CB09CE00042561 /* AppDelegate.swift */; };
 		3BBAF85427CB09CE00042561 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAF85327CB09CE00042561 /* SceneDelegate.swift */; };
 		3BBAF85627CB09CE00042561 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAF85527CB09CE00042561 /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 
 /* Begin PBXFileReference section */
 		3B514F9E27CC9F0C00A67028 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3BA5707027CDF71F00B6A874 /* CustomBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
+		3BA5707127CDF71F00B6A874 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		3BA5707227CDF71F00B6A874 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		3BA5707327CDF71F00B6A874 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		3BBAF84E27CB09CE00042561 /* Design+Code UIKit iOS 15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design+Code UIKit iOS 15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBAF85127CB09CE00042561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BBAF85327CB09CE00042561 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +46,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BA5706F27CDF71F00B6A874 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3BA5707027CDF71F00B6A874 /* CustomBlurView.swift */,
+				3BA5707127CDF71F00B6A874 /* CustomUIView.swift */,
+				3BA5707227CDF71F00B6A874 /* Font.swift */,
+				3BA5707327CDF71F00B6A874 /* CustomImageView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		3BBAF84527CB09CE00042561 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +80,7 @@
 				3BBAF85327CB09CE00042561 /* SceneDelegate.swift */,
 				3BBAF85527CB09CE00042561 /* ViewController.swift */,
 				3BBAF85727CB09CE00042561 /* Main.storyboard */,
+				3BA5706F27CDF71F00B6A874 /* Helpers */,
 				3B514F9E27CC9F0C00A67028 /* MyPlayground.playground */,
 				3BBAF85A27CB09D000042561 /* Assets.xcassets */,
 				3BBAF85C27CB09D000042561 /* LaunchScreen.storyboard */,
@@ -141,7 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BBAF85627CB09CE00042561 /* ViewController.swift in Sources */,
+				3BA5707527CDF71F00B6A874 /* CustomUIView.swift in Sources */,
+				3BA5707627CDF71F00B6A874 /* Font.swift in Sources */,
+				3BA5707727CDF71F00B6A874 /* CustomImageView.swift in Sources */,
 				3BBAF85227CB09CE00042561 /* AppDelegate.swift in Sources */,
+				3BA5707427CDF71F00B6A874 /* CustomBlurView.swift in Sources */,
 				3BBAF85427CB09CE00042561 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
